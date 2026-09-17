@@ -47,6 +47,7 @@ Deliveries
   /   \
  ↓     ↓
 Drivers  Vehicles
+
 📊 Dataset Overview
 Table	Rows	Columns
 Customers	400	7
@@ -54,21 +55,27 @@ Orders	3,000	8
 Deliveries	3,500	10
 Drivers	80	6
 Vehicles	50	7
+
 🔍 Project Analysis
+
 Sprint 1 – Business Understanding and Data Understanding
+
 Company background and business context
 Data Analyst role
 ER diagram interpretation
 Identification of tables, columns, keys, and relationships
 Analytical thinking for business situations
 Logical approach to solving business problems before writing SQL
+
 Sprint 2 – Database Setup
+
 Created the MySQL database based on the ER diagram
 Created relational tables
 Defined primary keys and foreign keys
 Applied appropriate data types and constraints
 Imported CSV datasets
 Verified the imported data
+
 Sprint 3 – Basic Analysis
 
 The project includes SQL analysis for:
@@ -81,28 +88,37 @@ Active drivers
 Available vehicle types
 Total order value
 Average package weight
+
 Sprint 4 – Objective-Based Analysis
+
 4.1 Delivery Demand
+
 Orders across delivery zones
 Orders by service type
 Orders by priority
 Order volume over time
 Order value across different groups
+
 4.2 Customer Order Behaviour
+
 Customers with multiple orders
 Customer order frequency
 High-value customers
 Customer activity by delivery zone
 Business vs Individual customers
 Customer ordering patterns over time
+
 4.3 Delivery Performance
+
 Delivery outcomes across zones
 Delivery duration analysis
 Delivery status analysis
 Delivery activity across zones
 Delivery performance over time
 Delivery attempts
+
 4.4 Driver and Vehicle Performance
+
 Number of deliveries handled by drivers
 Driver delivery outcomes
 Driver ratings
@@ -110,21 +126,27 @@ Delivery duration across drivers
 Vehicle utilization
 Vehicle type usage
 Delivery performance across vehicles
+
 4.5 Delivery Problems
+
 Deliveries requiring multiple attempts
 Failed deliveries
 Common delivery statuses
 Problem patterns
 Performance of orders with multiple attempts
 Delivery problems across different zones
+
 🛠️ Tools & Technologies
+
 MySQL
 SQL
 MySQL Workbench
 CSV
 Git
 GitHub
+
 💡 SQL Concepts Used
+
 CREATE DATABASE
 CREATE TABLE
 Primary Keys
@@ -146,7 +168,9 @@ CASE
 Date Functions
 Subqueries
 Conditional Analysis
+
 📁 Project Structure
+
 Last-Mile-Delivery-Operations-Analytics/
 │
 ├── README.md
@@ -171,6 +195,7 @@ Last-Mile-Delivery-Operations-Analytics/
 │
 └── documentation/
     └── project_report.pdf
+
 📈 Business Insights
 
 The analysis is designed to identify:
